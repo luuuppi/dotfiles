@@ -106,7 +106,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ls="eza --tree --level=1 --icons=always --no-time --no-user --no-permissions"
+alias ls="eza --tree --level=1 --icons=always --no-time --no-user"
 alias config="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
 alias nvim-chad="NVIM_APPNAME=NvChad nvim"
 alias nvim-lazy="NVIM_APPNAME=LazyVim nvim"

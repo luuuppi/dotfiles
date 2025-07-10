@@ -106,7 +106,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ls="eza --tree --level=1 --icons=always --no-time --no-user"
+alias ls="eza --tree --level=0 --icons=always --no-time --no-user"
 alias config="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
 
 # Keybindings
